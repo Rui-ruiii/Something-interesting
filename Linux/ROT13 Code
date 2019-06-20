@@ -1,0 +1,10 @@
+# WHAT: An interesting use of the tr command is to perform ROT13 text encoding. 
+# WHY: ROT13 is a type of encryption based on a simple replacement code. Calling ROT13 the "text blurring" is more accurate. Sometimes it is used to hide potential attack content in the text. 
+# HOW: This method simply moves each character 13 bits forward in the alphabet.Since the number of bits moved is half of the possible 26 characters, the algorithm is restored to its original form again.
+
+#use tr command in Linux:
+$:echo 'the quick brown fox jumps over a lazy dog' | tr 'a-zA-Z' 'n-za-mN-ZA-M'
+ :gur dhvpx oebja sbk whzcf bire n ynml qbt
+ 
+$:echo 'gur dhvpx oebja sbk whzcf bire n ynml qbt' | tr 'a-zA-Z' 'n-za-mN-ZA-M'
+ :gur dhvpx oebja sbk whzcf bire n ynml qbt
